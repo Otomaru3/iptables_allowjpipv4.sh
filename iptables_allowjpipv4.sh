@@ -46,8 +46,7 @@ echo ! ipv4jp 許可
 while read line
 do
     #echo "LINE : $line"
-    #iptables -A INPUT -p udp -s $line --dport $dport -j ACCEPT
-    TEST = $line
+    iptables -A INPUT -p udp -s $line --dport $dport -j ACCEPT
 done < ip-list-${date}.txt
 
 
