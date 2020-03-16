@@ -6,7 +6,7 @@ iptablesのセーブはしません。
 ## 実行例
 
 
-```
+```bash
 bash:~/tmp$ 
 bash:~/tmp$ bash --version
 GNU bash, version 4.4.19(1)-release (x86_64-pc-linux-gnu)
