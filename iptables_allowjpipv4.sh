@@ -60,3 +60,4 @@ echo ! IPTABLES 表示
 echo !
 
 iptables --list -n
+#iptables-save
